@@ -1,11 +1,11 @@
 " Language: OpenGL Shading Language
 " Maintainer: Sergey Tikhomirov <sergey@tikhomirov.io>
 
-syn include @GLSL syntax/glsl.vim
-syn region GLSL
-      \ start="\[glsl|"
+syn include @GLSLX syntax/glslx.vim
+syn region GLSLX
+      \ start="\[glslx|"
       \ keepend
       \ contained
       \ end="|\]"
-      \ contains=@GLSL
+      \ contains=@GLSLX
 
